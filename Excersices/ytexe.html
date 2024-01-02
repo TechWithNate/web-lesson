@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Roboto, Arial;
+        }
+
+        .search{
+            display: block;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        .video-preview {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+            width: 300px;
+        }
+
+        .thumbnail {
+            width: 300px;
+            
+        }
+
+        .channel {
+            display: inline-block ;
+            vertical-align: top;
+            width: 50px;
+        }
+
+        .profile-picture {
+            width: 42px;
+            border-radius: 20px;
+        }
+
+        .thumbnail-row {
+            margin-bottom: 10px;
+        }
+
+        .video-info {
+            display: inline-block;
+            width: 220px;
+        }
+
+        .video-title {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 20px;
+        }
+
+        .video-author {
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            margin-top: 20px;
+        }
+
+        .video-stats {
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            margin-top: 5px;
+        }
+           
+        
+
+    </style>
+</head>
+<body>
+    <div class="search-area">
+        <input type="text" class="search" placeholder="Search...">
+    </div>
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <img src="/thumbnails/thumbnail-1.webp" alt="Thumbnial" class="thumbnail">
+        </div>
+        <div class="channel">
+            <img src="/Images/channel-1.jpeg" alt="Channel" class="profile-picture">
+        </div>
+        <div class="video-info">
+            <p class="video-title">Talking Tech and AI with Google
+                CEO Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">3.4M views · 6 months ago</p>
+        </div>    
+        
+    </div>
+    
+    <div class="video-preview">
+        <img src="/thumbnails/thumbnail-2.webp" alt="Thumbnial" class="thumbnail">
+        <p class="video-title">
+            Try Not To Laugh Challenge #9
+        </p>
+        <p class="video-author">Markiplier</p>
+        <p class="video-stats">19M views · 4 years ago</p>
+    </div>
+    
+    
+    
+    
+    
+</body>
+</html>
