@@ -5,65 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/youtube.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
     <title>Youtube Clone</title>
-
-    <!-- <style> -->
-
-        <!-- /* .video-preview { */ -->
-            <!-- /* display: inline-block; */ -->
-            <!-- /* margin-right: 10px; */ -->
-            <!-- /* width: 300px; */ -->
-            <!-- /* vertical-align: top; */ -->
-        <!-- /* } */ -->
-<!--  -->
-        <!-- /* .thumbnail { */ -->
-            <!-- /* width: 300px; */ -->
-        <!-- /* } */ -->
-<!--  -->
-        <!-- /* .search-bar { */ -->
-            <!-- /* font-size: 16px; */ -->
-            <!-- /* margin-left: 12px; */ -->
-            <!-- /* padding-left: 5px; */ -->
-            <!-- /* padding-top: 8px; */ -->
-            <!-- /* padding-bottom: 8px; */ -->
-            <!-- /* margin-bottom: 10px; */ -->
-            <!-- /* display: block; */ -->
-<!--  -->
-        <!-- /* } */ -->
-<!--  -->
-        <!-- /* p { */ -->
-            <!-- /* font-family: Arial; */ -->
-            <!-- /* margin-top: 0; */ -->
-            <!-- /* margin-bottom: 0; */ -->
-        <!-- /* } */ -->
-<!--  -->
-        <!-- /* .video-description { */ -->
-            <!-- /* font-weight: bold; */ -->
-            <!-- /* width: 270px; */ -->
-            <!-- /* margin-bottom: 20px; */ -->
-            <!-- /* line-height: 20px; */ -->
-        <!-- /* } */ -->
-<!--  -->
-        <!-- /* .video-author { */ -->
-            <!-- /* font-size: 12px; */ -->
-            <!-- /* color: rgb(96, 96, 96); */ -->
-        <!-- /* } */ -->
-<!--  -->
-        <!-- /* .video-stats { */
-            /* font-size: 13px; */
-            /* color: rgb(96, 96, 96); */
-            /* margin-top: 5px; */
-        /* } */ -->
-
-    <!-- /* </style> */ -->
 
 </head>
 <body>
-    <input class="search-bar" type="text" placeholder="Search...">
+    <div class="header">
+        <div class="left-section">
+            <img src="/Images/icons/hamburger-menu.svg" alt="Humbergur" class="humbergur-menu">
+            <img src="/Images/icons/youtube-logo.svg" alt="YT logo" class="youtube-logo">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search...">
+            <button class="search-logo-btn">
+                <img class="search-logo-icon" src="/Images/icons/search.svg" alt="">
+            </button>
+            <button class="voice-search">
+                <img class="voice-search-icon" src="/Images/icons/voice-search-icon.svg" alt="">
+            </button>
+        </div>
+        <div class="right-section">
+            <img src="/Images/icons/upload.svg" alt="Upload Image" class="upload-img">
+            <img src="/Images/icons/youtube-apps.svg" alt="Youtube Apps" class="youtube-apps-img">
+            <div class="notification-row">
+                <img src="/Images/icons/notifications.svg" alt="Notification" class="notification-img">
+                <div class="notification-count">3</div>
+            </div>
+            <img src="/Images/channel-pics/my-channel.jpeg" alt="My channel Image" class="current-profile-img">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="/Images/icons/home.svg" alt="Home">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="/Images/icons/explore.svg" alt="Explore">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="/Images/icons/subscriptions.svg" alt="Subs">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="/Images/icons/originals.svg" alt="Originals">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="/Images/icons/youtube-music.svg" alt="YT musics">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="/Images/icons/library.svg" alt="Library">
+            <div>Library</div>
+        </div>
+    </div>
+
     <div class="video-grid">
         <div class="video-preview">
             <div class="thumbnail-row">
                 <img class="thumbnail" src="/Images/thumbnails/thumbnail-1.webp" alt="Thumbnail">
+                <div class="video-time">14:20</div>
             </div>
             <div class="video-details">
                 <div class="channel-row">

@@ -1,26 +1,9 @@
-*{
-    font-family: Arial;
-}
-
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.search-bar {
-    display: block;
-    padding: 7px;
-    width: 200px;
-    font-size: 14px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     row-gap: 40px;
+    margin-bottom: 1000px;
 }
 
 .video-details {
@@ -61,5 +44,21 @@ p{
 
 .video-stats {
     margin-top: 5px;
+}
+
+.thumbnail-row {
+    position: relative;
+}
+
+.video-time {
+    position: absolute;
+    background-color: black;
+    padding: 4px;
+    color: white;
+    font-family: Arial;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 2px;
+    font-size: 12px;
 }
 
